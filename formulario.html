@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Formulario De Contacto</title>
+    <link rel="stylesheet" href="Styles/formulario.css">
+</head>
+<body>
+<header>
+    <div class="contenedor">
+        <h1 class="">Proyecto FISCHL</h1>
+        <input type="checkbox" id="menu-bar">
+        <label class=".icon-menu:before" for="menu-bar"><img src="img/hamburguesa.svg" alt=""></label>
+        <nav class="menu">
+            <a href="index.html">Inicio</a>
+            <a href="paguina2.html">Objetivos</a>
+            <a href="justificacion.html">justificación</a>
+            <a href="Mision.html">Misión</a>
+            <a href="vision.html">Visión</a>
+            <a href="formulario.html">Contactos</a>
+        </nav>
+    </div>
+</header>
+
+    <form class="form" action="https://formspree.io/f/xvoldobb" method="POST">
+        <div class="form_container">
+            <h2 class="form_title">Contactanos</h2>
+            <input type="text" class="form_input" placeholder="Nombre:" name="name">
+            <input type="email" class="form_input" placeholder="Email:" name="email">
+            <textarea class="form_input form_input--message" placeholder="Mensaje:" name="message"></textarea>
+        
+        <input type="submit" value="Enviar" class="form_cta">        
+        </div>
+    </form>
+</body>
+</html>
